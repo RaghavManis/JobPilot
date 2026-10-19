@@ -1,0 +1,359 @@
+{
+  "user_id": "manish_yadav",
+  "profile_version": "1.0",
+  "last_updated": "2026-10-13",
+  "personal": {
+    "first_name": "Manish",
+    "last_name": "Yadav",
+    "full_name": "Manish Yadav",
+    "gender": "male",
+    "email": "mns24@gmail.com",
+    "phone": 8429766063,
+    "date_of_birth": "2002-07-08, 8th july 2002",
+    "address": {
+      "address_line_1": "Bangalore",
+      "address_line_2": null,
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "postal_code": "560027"
+    },
+    "linkedin_url": "https://www.linkedin.com/in/manish024",
+    "github_url": "https://github.com/RaghavManis",
+    "leetcode_url": "https://leetcode.com/u/raghavmanish/",
+    "portfolio_url": null,
+    "photo_path": "knowledge_base/photos/profile.jpg",
+    "hispanic_latino": "No / Not Hispanic or Latino",
+    "race": "Asian",
+    "race_detailed": "Asian Indian",
+    "race_ethnicity": "Asian (Asian Indian)",
+    "veteran_status": "I am not a protected veteran / Not a Veteran",
+    "disability_status": "No, I do not have a disability"
+  },
+  "professional": {
+    "employment_status": "Not currently employed; left Infosys on 2026-09-16",
+    "current_company": null,
+    "current_role": null,
+    "total_experience_years": 1,
+    "notice_period_days": "immediate joiner",
+    "last_employer": "Infosys",
+    "last_role": "Digital Specialist Engineer (DSE)",
+    "last_employment_start": "2026-06",
+    "last_employment_end": "2026-09-16",
+    "last_role_description": "Training and project work involving software engineering and Generative AI concepts, including LLM applications, prompt engineering, APIs, RAG, LangChain, and LangGraph.",
+    "previous_internships": [
+      {
+        "company": "BrainlyHood",
+        "role": "Backend Developer Intern",
+        "start_date": "2026-01-09",
+        "end_date": "2026-04-10",
+        "description": null
+      }
+    ],
+    "linkedin_headline": null,
+    "work_authorization": {
+      "country": "India",
+      "details": null
+    }
+  },
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad)",
+      "start_year": 2023,
+      "graduation_year": 2026,
+      "major": "Computer Applications",
+      "gpa_or_percentage": "CPI 8.15",
+      "status": "Completed; provisional degree obtained"
+    },
+    {
+      "degree": "Bachelor of Science (B.Sc.)",
+      "institution": "Smt. Indira Gandhi PG College, Mau",
+      "start_year": 2020,
+      "graduation_year": 2023,
+      "major": "physics honors",
+      "gpa_or_percentage": "67%",
+      "status": "Completed"
+    },
+    {
+      "degree": "Class XII (CBSE)",
+      "institution": "Jawahar Navodaya Vidyalaya (JNV), Mau",
+      "graduation_year": 2019,
+      "major": "PCM",
+      "gpa_or_percentage": "87%",
+      "status": "Completed"
+    },
+    {
+      "degree": "Class X (CBSE)",
+      "institution": "Jawahar Navodaya Vidyalaya (JNV), Mau",
+      "graduation_year": 2017,
+      "major": null,
+      "gpa_or_percentage": null,
+      "status": "Completed"
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "Java",
+      "Python",
+      "C",
+      "C++",
+      "JavaScript",
+      "TypeScript",
+      "Groovy"
+    ],
+    "backend_and_frameworks": [
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "JPA",
+      "Node.js",
+      "FastAPI",
+      "REST APIs",
+      "Microservices"
+    ],
+    "generative_ai_and_llm": [
+      "Generative AI",
+      "Large Language Model (LLM) applications",
+      "Prompt Engineering",
+      "Retrieval-Augmented Generation (RAG)",
+      "LangChain",
+      "LangGraph",
+      "LLM API integration",
+      "Tool calling",
+      "Agent routing",
+      "Conversation state and memory",
+      "Human-in-the-loop workflows",
+      "Embeddings",
+      "Semantic search",
+      "FAISS"
+    ],
+    "databases_and_messaging": [
+      "MySQL",
+      "Redis",
+      "Kafka",
+      "RabbitMQ",
+      "Flyway"
+    ],
+    "frontend": [
+      "React",
+      "TypeScript",
+      "Vite"
+    ],
+    "testing_and_tools": [
+      "Git",
+      "Tomcat",
+      "Playwright",
+      "pytest",
+      "Cursor",
+      "GitHub Copilot"
+    ],
+    "other": [
+      "WebSocket",
+      "STOMP",
+      "JWT",
+      "Role-Based Access Control (RBAC)",
+      "Eureka",
+      "HttpClient",
+      "RestTemplate",
+      "Unit Testing",
+      "Basic AWS familiarity",
+      "Basic PCF familiarity"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Uber Backend Microservices",
+      "category": "Backend / Microservices",
+      "repository_url": "https://github.com/RaghavManis/UberProject-AuthService",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "Kafka",
+        "MySQL",
+        "Flyway",
+        "Redis",
+        "WebSocket",
+        "STOMP",
+        "Eureka"
+      ],
+      "description": "Backend project built around five microservices, including authentication and service communication.",
+      "highlights": [
+        "Implemented JWT-based authentication and role-based access control.",
+        "Used Kafka for event-driven communication.",
+        "Used Redis caching to reduce response time by approximately 30%.",
+        "Integrated service discovery with Eureka."
+      ]
+    },
+    {
+      "name": "Cricket Tournament Management System",
+      "category": "Full-stack Web Application",
+      "project_url": "https://splcricket.live/dashboard",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "MySQL",
+        "Hibernate",
+        "WebSocket",
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "description": "Application for managing cricket tournament information and live match-related updates.",
+      "highlights": [
+        "Implemented cricket scoring rules including no-ball handling and strike rotation after run-outs.",
+        "Optimized database access by addressing N+1 query issues and adding caching.",
+        "Reduced database API consumption by approximately 90% through query optimization and caching."
+      ]
+    },
+    {
+      "name": "Enterprise AI Assistant / RAG Multi-Agent System",
+      "category": "Generative AI",
+      "repository_url": null,
+      "technologies": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "LLM APIs",
+        "FAISS",
+        "FastAPI",
+        "Docker"
+      ],
+      "description": "AI assistant concept combining retrieval-augmented generation with multi-agent workflow orchestration.",
+      "highlights": [
+        "Designed routing and tool-calling workflows.",
+        "Included state and memory management.",
+        "Planned human-in-the-loop checkpoints.",
+        "Used a vector index for retrieval-based question answering."
+      ],
+      "completion_status": null
+    },
+    {
+      "name": "JobPilot",
+      "category": "AI-powered Job Application Automation",
+      "repository_url": null,
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Playwright",
+        "LLM integration",
+        "LangChain",
+        "LangGraph",
+        "RAG"
+      ],
+      "description": "A universal job-application autofiller designed to interpret application forms and populate fields using a stored candidate profile.",
+      "planned_capabilities": [
+        "Support single-page and multi-page application forms.",
+        "Handle login-required and public application flows without bypassing authentication.",
+        "Identify fields using labels, selectors, and LLM assistance.",
+        "Support dynamic and conditional form fields.",
+        "Require human approval before final submission."
+      ],
+      "completion_status": "In development; Phase 1 foundation reported complete"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "DevJam",
+      "organizer": "MNNIT Allahabad",
+      "year": 2024,
+      "result": "4th place and Special Mention",
+      "details": "Among 80 teams"
+    },
+    {
+      "title": "Softablitz",
+      "organizer": "MNNIT Allahabad",
+      "year": 2024,
+      "result": "3rd place"
+    },
+    {
+      "title": "NIMCET",
+      "year": 2023,
+      "result": "All India Rank 192"
+    },
+    {
+      "title": "Competitive Programming",
+      "result": "Solved 750+ algorithmic problems"
+    }
+  ],
+  "job_preferences": {
+    "target_roles": [
+      "Software Development Engineer",
+      "Software Engineer",
+      "Backend Developer",
+      "Java Developer",
+      "Graduate Engineer Trainee",
+      "AI Engineer",
+      "Generative AI Engineer"
+    ],
+    "preferred_locations": [],
+    "remote_preference": "yes",
+    "willing_to_relocate": "yes",
+    "employment_types": [
+      "full-time",
+      "part-time",
+      "internship",
+      "remote",
+      "work from office",
+      "hybrid",
+      "contract"
+    ],
+    "salary_expectation": "11 LPA",
+    "currency": "INR",
+    "notice_period_days": "immediate joiner",
+    "preferred_company_types": [
+      "Startups",
+      "Mid-sized companies",
+      "Large enterprises"
+    ]
+  },
+  "demographics": {
+    "hispanic_latino": "No / Not Hispanic or Latino",
+    "race": "Asian",
+    "race_detailed": "Asian Indian",
+    "race_ethnicity": "Asian (Asian Indian)",
+    "veteran_status": "I am not a protected veteran / Not a Veteran",
+    "disability_status": "No, I do not have a disability"
+  },
+  "documents": {
+    "resume_file_path": "knowledge_base/resumes/resumeG.pdf",
+    "resume_versions": [
+      {
+        "version": "General SWE",
+        "file_path": "knowledge_base/resumes/resumeG.pdf"
+      }
+    ],
+    "cover_letter_file_path": null,
+    "education_documents": [
+      {
+        "document": "MCA provisional degree",
+        "status": "Obtained"
+      },
+      {
+        "document": "Final semester marksheet",
+        "status": "Previously reported as pending / documentation issue"
+      }
+    ]
+  },
+  "application_profile": {
+    "default_country": "India",
+    "consent_to_submit_applications_automatically": false,
+    "require_human_review_before_final_submission": true,
+    "allow_inventing_missing_answers": false,
+    "notes": "Use only confirmed profile data when filling applications. Ask for clarification or leave fields blank when a required answer is unknown."
+  },
+  "additional_information": {
+    "job_search_goal": "Tailor applications and resumes to software engineering and AI-related job descriptions.",
+    "resume_preferences": [
+      "One-page resume",
+      "Concise bullet points",
+      "ATS-friendly wording",
+      "Tailor skills and projects to each job description",
+      "Avoid exaggerated or unverified claims"
+    ]
+  }
+}

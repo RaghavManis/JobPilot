@@ -1,0 +1,573 @@
+{
+  "have you ever been employed by stripe or a stripe affiliate": {
+    "answer": "no",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Have you ever been employed by Stripe or a Stripe affiliate?*"
+  },
+  "do you opt-in to receive whatsapp messages from stripe recruiting": {
+    "answer": "yes",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Do you opt-in to receive WhatsApp messages from Stripe Recruiting?*"
+  },
+  "gender": {
+    "answer": "male",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Gender"
+  },
+  "attach": {
+    "answer": "na",
+    "context": {
+      "field_type": "file",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Attach"
+  },
+  "are you hispanic/latino": {
+    "answer": "no",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Are you Hispanic/Latino?"
+  },
+  "veteran status": {
+    "answer": "no",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Veteran Status"
+  },
+  "clear selections": {
+    "answer": "bangalore",
+    "context": {
+      "field_type": "button",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Clear selections"
+  },
+  "school": {
+    "answer": "other",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "School*"
+  },
+  "degree": {
+    "answer": "other",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Degree*"
+  },
+  "location (city)": {
+    "answer": "bangalore",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Location (City)*"
+  },
+  "please select the country where you currently reside.": {
+    "answer": "india",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Please select the country where you currently reside. *"
+  },
+  "are you authorized to work in the location(s) you selected in your previous response": {
+    "answer": "yes",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Are you authorized to work in the location(s) you selected in your previous response?*"
+  },
+  "will you require stripe to sponsor you for a work permit now or in the future for the location(s) you selected in in your previous response": {
+    "answer": "no",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Will you require Stripe to sponsor you for a work permit now or in the future for the location(s) you selected in in your previous response? *"
+  },
+  "if this role offers the option to work from a remote location, do you plan to work remotely": {
+    "answer": "yes",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "If this role offers the option to work from a remote location, do you plan to work remotely?*"
+  },
+  "country": {
+    "answer": "india",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Phone",
+      "options": []
+    },
+    "raw_question": "Country*"
+  },
+  "remove file": {
+    "answer": "manish",
+    "context": {
+      "field_type": "button",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "Remove file"
+  },
+  "get industry insights and updates from stripe": {
+    "answer": "r tournament, match, team, and player management with backend services exposed throughRESTful\nAPIs.",
+    "context": {
+      "field_type": "email",
+      "section_heading": "AI Engineer",
+      "options": []
+    },
+    "raw_question": "Get industry insights and updates from Stripe"
+  },
+  "what is your current or previous job title": {
+    "answer": "resumeG.pdf",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "What is your current or previous job title?*"
+  },
+  "if located in the us, in what city and state do you reside": {
+    "answer": "resumeG.pdf",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Voluntary Self-Identification",
+      "options": []
+    },
+    "raw_question": "If located in the US, in what city and state do you reside?*"
+  },
+  "male": {
+    "answer": "Male",
+    "context": {
+      "field_type": "radio",
+      "section_heading": "Acme Corp - Senior Software Engineer Application",
+      "options": [
+        "Male",
+        "Female",
+        "Non-binary",
+        "Prefer not to say"
+      ]
+    },
+    "raw_question": "Male"
+  },
+  "i consent to background data processing for my job application.": {
+    "answer": "yes",
+    "context": {
+      "field_type": "checkbox",
+      "section_heading": "Acme Corp - Senior Software Engineer Application",
+      "options": []
+    },
+    "raw_question": "I consent to background data processing for my job application."
+  },
+  "do you have any relatives working within hsbc group\u200b": {
+    "answer": "n structured prompt engineering, code refactoring, debugging, RAG pipelines, and agentic\nworkflows.",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "Do you have any relatives working within HSBC group?\u200b"
+  },
+  "have you ever been employed or engaged as a contractor, consultant or service provider by any hsbc group entity": {
+    "answer": "sions, or lessons learned, generate an explanation grounded in the project's actual implementation.",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "Have you ever been employed or engaged as a contractor, consultant or service provider by any HSBC group entity?"
+  },
+  "have you been employed, or are still employed, by hsbc\u2019s external auditors you may be asked to disclose more information during the recruitment process if the answer is yes": {
+    "answer": "ip, security clearance, and legal eligibility, ask for confirmation whenever the answer is unknown.",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "Have you been employed, or are still employed, by HSBC\u2019s external auditors? You may be asked to disclose more information during the recruitment process if the answer is Yes"
+  },
+  "english uk \u200e(english uk)\u200e": {
+    "answer": "english",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Career Opportunities: Intern(Apprentice-12 Months) (62763)",
+      "options": []
+    },
+    "raw_question": "English UK \u200e(English UK)\u200e"
+  },
+  "if yes, please provide your employee id": {
+    "answer": "na",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "If yes, please provide your Employee ID:"
+  },
+  "diversity and inclusion consent": {
+    "answer": "yes",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "Diversity and Inclusion Consent"
+  },
+  "what is your ethnic group": {
+    "answer": "asian",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "What is your ethnic group?"
+  },
+  "any hsbc group recruiter worldwide (you may be contacted for jobs where you are deemed a good fit)": {
+    "answer": "Any HSBC Group Recruiter worldwide (you may be contacted for jobs where you are deemed a good fit)",
+    "context": {
+      "field_type": "radio",
+      "section_heading": "Questions",
+      "options": [
+        "Any HSBC Group Recruiter worldwide (you may be contacted for jobs where you are deemed a good fit)",
+        "Any HSBC Group Recruiter managing roles in my country / territory of residence (you may be contacted for jobs in your 'Place of Residence' where you are deemed a good fit)",
+        "Only HSBC Group Recruiters managing the jobs I apply to (you will not be contacted for other job opportunities)"
+      ]
+    },
+    "raw_question": "Any HSBC Group Recruiter worldwide (you may be contacted for jobs where you are deemed a good fit)"
+  },
+  "do you have any pending litigation/court case against you in any court of law (both personal/owing to a position of responsibility)": {
+    "answer": "No",
+    "context": {
+      "field_type": "radio",
+      "section_heading": "Do you have any pending litigation/court case against you in any Court of Law? (both personal/owing to a position of responsibility)",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "raw_question": "Do you have any pending litigation/court case against you in any Court of Law? (both personal/owing to a position of responsibility)"
+  },
+  "do you have a disability (including physical or sensory) long term / mental health condition or are you neurodiverse": {
+    "answer": "no",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "Do you have a disability (including physical or sensory)? Long term / mental health condition or are you neurodiverse?"
+  },
+  "are you eligible to work in the country / territory where this role is based please note, verification checks will be conducted, and you may be required to present your passport, work visa, and/or national id during the onboarding process.": {
+    "answer": "yes",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Questions",
+      "options": []
+    },
+    "raw_question": "Are you eligible to work in the country / territory where this role is based? Please note, verification checks will be conducted, and you may be required to present your passport, work visa, and/or national ID during the onboarding process."
+  },
+  "please note that applicants are advised to disclose any external directorships or other roles, including other commercial interests held by him / her on behalf of any non-hsbc entity to ensure that the reputation, image and interests of the hsbc group are fully protected at all times and such roles do not result in conflict of interest or reputational risk for the hsbc group. do you hold any external directorship/ public trusteeship or a role which requires you to take action on behalf of a non-hsbc entity as per stated above": {
+    "answer": "No",
+    "context": {
+      "field_type": "radio",
+      "section_heading": "Please note that applicants are advised to disclose any external directorships or other roles, including other commercial interests held by him / her on behalf of any non-HSBC entity to ensure that the reputation, image and interests of the HSBC group are fully protected at all times and such roles do not result in conflict of interest or reputational risk for the HSBC Group. Do you hold any external directorship/ public trusteeship or a role which requires you to take action on behalf of a non-HSBC entity as per stated above?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "raw_question": "Please note that applicants are advised to disclose any external directorships or other roles, including other commercial interests held by him / her on behalf of any non-HSBC entity to ensure that the reputation, image and interests of the HSBC group are fully protected at all times and such roles do not result in conflict of interest or reputational risk for the HSBC Group. Do you hold any external directorship/ public trusteeship or a role which requires you to take action on behalf of a non-HSBC entity as per stated above?"
+  },
+  "send whatsapp": {
+    "answer": "yes",
+    "context": {
+      "field_type": "checkbox",
+      "section_heading": "You are applying for -",
+      "options": []
+    },
+    "raw_question": "Send WhatsApp"
+  },
+  "send sms": {
+    "answer": "yes",
+    "context": {
+      "field_type": "checkbox",
+      "section_heading": "You are applying for -",
+      "options": []
+    },
+    "raw_question": "Send SMS"
+  },
+  "yes": {
+    "answer": "No",
+    "context": {
+      "field_type": "radio",
+      "section_heading": "You are applying for -",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "raw_question": "Yes"
+  },
+  "how did you hear about us": {
+    "answer": "Cisco Careers Site",
+    "context": {
+      "field_type": "select",
+      "section_heading": "You are applying for -",
+      "options": [
+        "Please Select",
+        "Cisco Careers Site",
+        "LinkedIn",
+        "Job Posting Site (e.g., Indeed)",
+        "Social Media (e.g., Instagram)",
+        "Job Fair or Event",
+        "Online Search",
+        "Word of Mouth",
+        "Online Advertisement",
+        "From Recruiter / Sourcer"
+      ]
+    },
+    "raw_question": "How Did You Hear About Us?\n*"
+  },
+  "i have a preferred name": {
+    "answer": "No",
+    "context": {
+      "field_type": "select",
+      "section_heading": "cntryFields",
+      "options": [
+        "Please Select",
+        "Yes",
+        "No"
+      ]
+    },
+    "raw_question": "I have a preferred name"
+  },
+  "dropbox": {
+    "answer": "na",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Software Engineer (2026139)",
+      "options": []
+    },
+    "raw_question": "Dropbox"
+  },
+  "microsoft online": {
+    "answer": "na",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Software Engineer (2026139)",
+      "options": []
+    },
+    "raw_question": "Microsoft online"
+  },
+  "city": {
+    "answer": "bangalore",
+    "context": {
+      "field_type": "text",
+      "section_heading": "cntryFields",
+      "options": []
+    },
+    "raw_question": "City\n*"
+  },
+  "phone device type": {
+    "answer": "Mobile",
+    "context": {
+      "field_type": "select",
+      "section_heading": "You are applying for -",
+      "options": [
+        "Please Select",
+        "Mobile",
+        "Landline"
+      ]
+    },
+    "raw_question": "Phone Device Type\n*"
+  },
+  "company": {
+    "answer": "infosys",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Work experience :",
+      "options": []
+    },
+    "raw_question": "Company\n*"
+  },
+  "close preference center": {
+    "answer": "yes",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Consent Manager",
+      "options": []
+    },
+    "raw_question": "Close preference center"
+  },
+  "from": {
+    "answer": "june 2026",
+    "context": {
+      "field_type": "text",
+      "section_heading": "Work experience :",
+      "options": []
+    },
+    "raw_question": "From\n*"
+  },
+  "i currently work here": {
+    "answer": "yes",
+    "context": {
+      "field_type": "checkbox",
+      "section_heading": "Work experience :",
+      "options": []
+    },
+    "raw_question": "I currently work here"
+  },
+  "highest degree obtained or pursuing": {
+    "answer": "Associate's equivalent (international or other)",
+    "context": {
+      "field_type": "select",
+      "section_heading": "Education :",
+      "options": [
+        "Please Select",
+        "Associate of Arts",
+        "Associate of Business Administration",
+        "Associate of Engineering",
+        "Associate of Science",
+        "Associate's equivalent (international or other)",
+        "Bachelor of Arts",
+        "Bachelor of Business Administration",
+        "Bachelor of Education",
+        "Bachelor of Engineering",
+        "Bachelor of Science",
+        "Bachelor's equivalent (international or other)",
+        "Doctor of Arts",
+        "Doctor of Business Administration",
+        "Doctor of Education",
+        "Doctor of Engineering",
+        "Doctor of Medicine",
+        "Doctor of Medicine (MD)",
+        "Doctor of Philosophy",
+        "Doctor of Philosophy (PhD)",
+        "Doctor of Science",
+        "Doctoral equivalent (international or other)",
+        "Educational Certificate (NOT certification or license)",
+        "General Equivalency Diploma (GED)",
+        "High School Diploma",
+        "Juris Doctorate",
+        "Master of Arts",
+        "Master of Business Administration",
+        "Master of Education",
+        "Master of Engineering",
+        "Master of Laws",
+        "Master of Library Science",
+        "Master of Science",
+        "Master's equivalent (international or other)"
+      ]
+    },
+    "raw_question": "Highest Degree Obtained or Pursuing"
+  },
+  "how many years of relevant work experience related to this position do you have": {
+    "answer": "0-1 year",
+    "context": {
+      "field_type": "select",
+      "section_heading": "QUESTIONNAIRE_GLOBAL_ETR_PRE_QUALIFICATION_EXTERNAL",
+      "options": [
+        "Please Select",
+        "2-3 years",
+        "4+ years",
+        "0-1 year"
+      ]
+    },
+    "raw_question": "How many years of relevant work experience related to this position do you have?*"
+  },
+  "are you currently pursuing further education (e.g., post-secondary education)": {
+    "answer": "No",
+    "context": {
+      "field_type": "select",
+      "section_heading": "QUESTIONNAIRE_GLOBAL_ETR_PRE_QUALIFICATION_EXTERNAL",
+      "options": [
+        "Please Select",
+        "No",
+        "Yes"
+      ]
+    },
+    "raw_question": "Are you currently pursuing further education (e.g., post-secondary education)?*"
+  },
+  "are you applying for an internship/co-op": {
+    "answer": "Yes",
+    "context": {
+      "field_type": "select",
+      "section_heading": "QUESTIONNAIRE_GLOBAL_ETR_PRE_QUALIFICATION_EXTERNAL",
+      "options": [
+        "Please Select",
+        "Yes",
+        "No"
+      ]
+    },
+    "raw_question": "Are you applying for an Internship/Co-Op?*"
+  },
+  "what is the earliest date you could start": {
+    "answer": "2026-10-20",
+    "context": {
+      "field_type": "date",
+      "section_heading": "QUESTIONNAIRE_GLOBAL_ETR_PRE_QUALIFICATION_EXTERNAL",
+      "options": []
+    },
+    "raw_question": "What is the earliest date you could start?*"
+  },
+  "are you applying for a full-time role": {
+    "answer": "Yes",
+    "context": {
+      "field_type": "select",
+      "section_heading": "QUESTIONNAIRE_GLOBAL_ETR_PRE_QUALIFICATION_EXTERNAL",
+      "options": [
+        "Please Select",
+        "Yes",
+        "No"
+      ]
+    },
+    "raw_question": "Are you applying for a Full-Time role?*"
+  },
+  "are you available to go to the office # times per week": {
+    "answer": "5 days in a week",
+    "context": {
+      "field_type": "select",
+      "section_heading": "QUESTIONNAIRE_GLOBAL_ETR_PRE_QUALIFICATION_EXTERNAL",
+      "options": [
+        "Please Select",
+        "0-1 day in a week",
+        "2-4 days in a week",
+        "5 days in a week"
+      ]
+    },
+    "raw_question": "Are you available to go to the office # times per week?*"
+  }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalTech Multi-Page Job Application</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #eef2f5; padding: 20px; }
+        .card { max-width: 650px; margin: 20px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .page-step { display: none; }
+        .page-step.active { display: block; }
+        .field { margin-bottom: 18px; }
+        label { display: block; font-weight: bold; margin-bottom: 6px; }
+        input[type="text"], input[type="email"], select, textarea { width: 100%; padding: 9px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .error-banner { display: none; color: #721c24; background: #f8d7da; padding: 10px; border-radius: 4px; margin-bottom: 15px; }
+        .btn-group { display: flex; justify-content: space-between; margin-top: 25px; }
+        button { padding: 10px 20px; font-weight: bold; border: none; border-radius: 4px; cursor: pointer; }
+        .btn-next { background: #007bff; color: white; }
+        .btn-prev { background: #6c757d; color: white; }
+        .btn-submit { background: #28a745; color: white; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>GlobalTech Careers — Principal Engineer Application</h2>
+        <div id="error-banner" class="error-banner">Please fill in all required fields correctly before proceeding.</div>
+
+        <!-- PAGE 1: Personal Details -->
+        <div id="step-1" class="page-step active">
+            <h3>Step 1: Contact Information</h3>
+            <div class="field">
+                <label for="first_name">First Name *</label>
+                <input type="text" id="first_name" name="firstName" required>
+            </div>
+            <div class="field">
+                <label for="last_name">Last Name *</label>
+                <input type="text" id="last_name" name="lastName" required>
+            </div>
+            <div class="field">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="btn-group">
+                <span></span>
+                <button type="button" id="btn-step-1-next" class="btn-next" onclick="goToStep(2)">Continue to Step 2</button>
+            </div>
+        </div>
+
+        <!-- PAGE 2: Experience & Conditional Fields -->
+        <div id="step-2" class="page-step">
+            <h3>Step 2: Experience & Questions</h3>
+            <div class="field">
+                <label for="has_experience">Do you have professional software engineering experience? *</label>
+                <select id="has_experience" name="hasExperience" onchange="toggleExperienceFields(this.value)">
+                    <option value="">-- Select --</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+            <!-- Conditional Section revealed when has_experience == 'yes' -->
+            <div id="conditional-experience" style="display: none; background: #f8f9fa; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+                <div class="field">
+                    <label for="company_name">Current / Most Recent Company</label>
+                    <input type="text" id="company_name" name="companyName">
+                </div>
+                <div class="field">
+                    <label for="years_exp">Years of Experience with Python</label>
+                    <input type="text" id="years_exp" name="yearsPython">
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="why_join">Why do you want to join GlobalTech? *</label>
+                <textarea id="why_join" name="whyJoin" rows="3" required></textarea>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn-prev" onclick="goToStep(1)">Back</button>
+                <button type="button" id="btn-step-2-next" class="btn-next" onclick="goToStep(3)">Review Application</button>
+            </div>
+        </div>
+
+        <!-- PAGE 3: Final Review & Submission -->
+        <div id="step-3" class="page-step">
+            <h3>Step 3: Review & Final Submission</h3>
+            <p>Please review your responses. Click <strong>Submit Application</strong> below to complete.</p>
+            <div class="btn-group">
+                <button type="button" class="btn-prev" onclick="goToStep(2)">Back</button>
+                <button type="button" id="btn-final-submit" class="btn-submit" onclick="submitFinal()">Submit Application</button>
+            </div>
+            <div id="submitted-msg" style="display: none; color: #155724; background: #d4edda; padding: 15px; border-radius: 4px; margin-top: 15px; font-weight: bold;">
+                Application submitted successfully!
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleExperienceFields(val) {
+            const expDiv = document.getElementById('conditional-experience');
+            if (val === 'yes') {
+                expDiv.style.display = 'block';
+            } else {
+                expDiv.style.display = 'none';
+            }
+        }
+
+        function goToStep(stepNum) {
+            document.querySelectorAll('.page-step').forEach(el => el.classList.remove('active'));
+            document.getElementById('step-' + stepNum).classList.add('active');
+        }
+
+        function submitFinal() {
+            document.getElementById('submitted-msg').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

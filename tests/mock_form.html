@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPilot Mock Job Application</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 20px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; font-weight: 600; margin-bottom: 6px; color: #4a5568; }
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+            width: 100%; padding: 10px; border: 1px solid #cbd5e0; border-radius: 4px; box-sizing: border-box;
+        }
+        .radio-group, .checkbox-group { display: flex; gap: 15px; margin-top: 5px; }
+        .btn-submit { background-color: #3182ce; color: white; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold; width: 100%; }
+        .btn-submit:hover { background-color: #2b6cb0; }
+        .success-msg { display: none; background: #c6f6d5; color: #22543d; padding: 15px; border-radius: 4px; margin-top: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Acme Corp - Senior Software Engineer Application</h1>
+        <form id="job-application-form" onsubmit="event.preventDefault(); document.getElementById('success-msg').style.display = 'block';">
+            <div class="form-group">
+                <label for="first_name">First Name *</label>
+                <input type="text" id="first_name" name="firstName" placeholder="Enter your first name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="last_name">Last Name *</label>
+                <input type="text" id="last_name" name="lastName" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country of Residence *</label>
+                <select id="country" name="country" required>
+                    <option value="">-- Select Country --</option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="IN">India</option>
+                    <option value="DE">Germany</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="non-binary"> Non-binary</label>
+                    <label><input type="radio" name="gender" value="prefer_not_to_say"> Prefer not to say</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume (PDF/DOCX) *</label>
+                <input type="file" id="resume" name="resumeFile" accept=".pdf,.docx" required>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="consent" name="dataConsent" required> I consent to background data processing for my job application.</label>
+                </div>
+            </div>
+
+            <button type="submit" id="btn-continue" class="btn-submit">Save & Continue</button>
+            <div id="success-msg" class="success-msg">Application submitted successfully!</div>
+        </form>
+    </div>
+</body>
+</html>

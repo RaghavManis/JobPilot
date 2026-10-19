@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# --- Environment & Credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Browser Automation & Playwright ---
+test-results/
+playwright-report/
+playwright/.cache/
+# Session / Auth / Cookie states (contain active logins)
+*state*.json
+storage_state.json
+auth.json
+
+# --- Database & Local Storage ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Project Outputs, Downloads & Personal Data ---
+downloads/
+logs/
+*.log
+screenshots/
+# Exclude actual resumes or personal documents
+*.pdf
+*.docx
+!templates/*.pdf
+!templates/*.docx
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Specific (Windows / Mac) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
